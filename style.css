@@ -39,7 +39,7 @@ html,body {
 }
 
 .section1 {
-    background-image: url(/img/gymderPic.png);
+    background-image: url(./img/gymderPic.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 400px;
@@ -94,7 +94,7 @@ section {
 }
 
 .section2 {
-    background-image: url(/img/portfolio.jpg.png);
+    background-image: url(./img/portfolio.jpg.png);
     background-repeat: no-repeat;
     background-size: 500px;
     border: 5px solid rgb(1, 12, 1);
@@ -108,7 +108,7 @@ section {
 }
 
 .section3 {
-    background-image: url(/img/schedulerpic.png);
+    background-image: url(./img/schedulerpic.png);
     background-repeat: no-repeat;
     background-size: 500px;
     width: 300px;
@@ -164,7 +164,7 @@ section {
 }
 
 .section3:hover {
-    background-image: url(/img/scheduler-gif3.gif);
+    background-image: url(./img/scheduler-gif3.gif);
     background-size: 100% 100%;
     opacity: .7;
     cursor: pointer;
@@ -175,7 +175,7 @@ section {
 
 .section2:hover {
     opacity: .7777;
-    background-image: url(/img/original-portfolio.gif);
+    background-image: url(./img/original-portfolio.gif);
     background-size: 100% 100%;
     cursor: pointer;
     box-shadow: inset 0px 0px 13px rgb(170, 4, 236), 0 0 20px rgb(196, 6, 243);
@@ -186,7 +186,7 @@ section {
 
 
 .section1:hover {
-    background-image: url(/img/gymder-projectGIF2.gif);
+    background-image: url(./img/gymder-projectGIF2.gif);
     background-size: 100% 100%;
     opacity: .85;
     cursor: pointer;

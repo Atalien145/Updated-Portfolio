@@ -1,0 +1,264 @@
+html,body {
+    height: 2000px;
+}
+
+.header {
+     padding: 50px;
+     background-image: linear-gradient(black, purple, orange);
+     color: #ffffff;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     background-color: rgba(0, 0, 0, 0.2);
+     text-align: center;
+     border: solid black 8px;
+    
+}
+
+.name {
+     color: rgb(252, 245, 245);
+     font-family: 'Times New Roman', Times, serif;
+     padding: 5px;
+     text-shadow:
+		-2px -1px 0 #000,
+		1px -2px 0 #000,
+		-1px 2px 0 #000;
+     font-size: 140px;
+     
+     text-decoration: underline solid gold 3px;
+
+}
+
+
+ 
+
+.a1:hover {
+     color: black;
+     background-image: repeating-linear-gradient(gold,#ec62a9);
+     border-radius: 20px;
+     box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232,102 ,236, 1);
+     transform: scale(1.2);
+}
+
+.section1 {
+    background-image: url(/img/gymderPic.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    border: 5px solid rgb(1, 12, 1);
+    padding: 41px;
+    margin: 50px;
+    height: 400px;
+    float: left;
+    transition: all .4s ease-in-out;
+}
+
+.a1 {
+     border: 5px solid black;
+     background-image: url(https://media2.giphy.com/media/fwo7bzEVxbYS4eSNVd/200w.webp?cid=ecf05e471kdevoosyakndruw4qor4zkbo6jyzwyequi9jc69&rid=200w.webp&ct=g);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     transition: all .3s ease-in-out;
+     float: right;
+     margin: 5px;
+     padding: 5px;
+     color: rgb(255, 196, 0);
+     font-weight: bolder;
+     cursor: pointer;
+        
+}
+
+.nav {
+     border: black;
+     background-color: rgba(172, 161, 161, 0.73);
+     border-width: 10px;
+ }
+
+.nav a {
+    text-align: center;
+    padding: 14px 20px;
+    cursor:pointer;
+    
+}
+
+.header1 {
+    background-color: rgb(3, 3, 3);
+    border: solid 5px rgb(236, 221, 7);
+    position: relative;
+    top: 10%;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+
+}
+section {
+    cursor: pointer;
+}
+
+.section2 {
+    background-image: url(/img/portfolio.jpg.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    border: 5px solid rgb(1, 12, 1);
+    width: 300px;
+    padding: 41px;
+    margin: 50px;
+    height: 200px;
+    float: left;
+    transition: all .3s ease-in-out;
+    
+}
+
+.section3 {
+    background-image: url(/img/schedulerpic.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    width: 300px;
+    border: 5px solid rgb(1, 12, 1);
+    padding: 41px;
+    margin: 50px;
+    height: 200px;
+    float: left;
+    transition: all .3s ease-in-out;
+    
+}
+
+.section4 {
+    background-image: url(https://i.pinimg.com/originals/2e/ad/8c/2ead8ccad2a97fa7e7f2e147ec84767b.gif);
+    background-repeat: no-repeat;
+    background-size: 480px;
+    width: 300px;
+    border: 5px solid rgb(1, 12, 1);
+    padding: 41px;
+    margin: 50px;
+    height: 200px;
+    float: left;
+    transition: all .3s ease-in-out;
+}
+
+.section5 {
+    background-image: url(https://i.pinimg.com/originals/8d/b2/59/8db259720d98e98b667c35e87b803100.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    width: 300px;
+    border: 5px solid rgb(1, 12, 1);
+    padding: 41px;
+    margin: 50px;
+    height: 200px;
+    float: left;
+    transition: all .3s ease-in-out;
+}
+
+.section4:hover {
+    opacity: .8;
+    box-shadow:
+    inset 0 0 50px rgba(255, 255, 255, 0.507),      /* inner white */
+    inset 20px 0 80px rgba(255, 0, 255, 0.671),   /* inner left magenta short */
+    inset -20px 0 80px rgba(0, 255, 255, 0.623),  /* inner right cyan short */
+    inset 20px 0 300px rgba(255, 0, 255, 0.459),  /* inner left magenta broad */
+    inset -20px 0 300px rgba(0, 255, 255, 0.486), /* inner right cyan broad */
+    0 0 50px rgba(255, 255, 255, 0.5),            /* outer white */
+    -10px 0 80px rgba(255, 0, 255, 0.589),        /* outer left magenta */
+    10px 0 80px rgba(0, 255, 255, 0.452);         /* outer right cyan */
+    border: solid 10px rgb(202, 173, 9);
+    border-radius: 15px;
+    
+}
+
+.section3:hover {
+    background-image: url(/img/scheduler-gif3.gif);
+    background-size: 100% 100%;
+    opacity: .7;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 13px rgb(170, 4, 236), 0 0 20px rgb(196, 6, 243);
+    border-radius: 30px;
+    border: solid 10px gold;
+}
+
+.section2:hover {
+    opacity: .7777;
+    background-image: url(/img/original-portfolio.gif);
+    background-size: 100% 100%;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 13px rgb(170, 4, 236), 0 0 20px rgb(196, 6, 243);
+    border-radius: 10px;
+    border: solid 5px gold;
+    
+}
+
+
+.section1:hover {
+    background-image: url(/img/gymder-projectGIF2.gif);
+    background-size: 100% 100%;
+    opacity: .85;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 13px rgb(170, 4, 236), 0 0 20px rgb(196, 6, 243);
+    border-radius: 30px;
+    border: solid 10px gold;
+    
+}
+
+.section5:hover {
+    opacity: .8;
+    box-shadow: inset 0px 0px 13px rgb(170, 4, 236), 0 0 20px rgb(196, 6, 243);
+    background-size: 100% 110%;
+    border: solid 10px rgb(202, 173, 9);
+    border-radius: 15px;
+    
+}
+
+.p1 {
+   font-size: 25px;
+   padding: 10px;
+
+}
+
+.body1 {
+   background-image:  repeating-linear-gradient( rgb(247, 128, 231), rgb(226, 240, 99));
+   
+   
+}
+
+.work1 {
+   border: solid 2px rgb(240, 205, 8);
+   box-shadow: inset 0px 0px 13px rgba(170, 4, 236, 0.651), 0 5px 10px rgba(233, 11, 159, 0.75);
+   text-align: center;
+   padding-top: 10px;
+   background-color: black;
+   color: white;
+   padding: 5px;
+}
+
+.header1:hover{
+    background-image: repeating-linear-gradient(blue, gold);
+    color: black;
+    padding: 5px;
+}
+
+.divy {
+    position: relative;
+    bottom: 0px;
+}
+
+.footer {
+    float: left;
+    position: absolute;
+    bottom: -1100px;
+}
+
+hr {
+    color: black;
+    height: 5px;
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    a, article {
+      width: 100%;
+      height: auto;
+    }
+}
+@media (max-width: 200px) {
+    a, article {
+        width: 100%;
+        height: auto;
+    }
+}
